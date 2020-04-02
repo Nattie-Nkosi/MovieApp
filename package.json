@@ -1,0 +1,23 @@
+{
+  "name": "Movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d Movies"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nutty4616/MovieApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nutty4616/MovieApp/issues"
+  },
+  "homepage": "https://github.com/Nutty4616/MovieApp#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
