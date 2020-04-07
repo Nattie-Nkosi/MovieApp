@@ -10,7 +10,7 @@ const autocompleteConfig = {
         return movie.Title;
     },
     async fetchData(seachTerm) {
-        const response = await axios.get('http://www.omdbapi.com/', {
+        const response = await axios.get('https://www.omdbapi.com/', {
             params: {
                 apikey: 'c326d45c',
                 s: seachTerm
@@ -46,7 +46,7 @@ createAutoComplete({
 let leftMovie;
 let rightMovie;
 const onMovieSelect = async (movie,summeryElement, side) =>{
-    const response = await axios.get('http://www.omdbapi.com/', {
+    const response = await axios.get('https://www.omdbapi.com/', {
         params: {
             apikey: 'c326d45c',
             i: movie.imdbID
