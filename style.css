@@ -4,10 +4,6 @@
   margin: auto;
 }
 
-.is-primary{
-  background: linear-gradient(90deg, #0F2027 0%, #203A43 35%, #2C5364 100%);
-}
-
 figure.image {
   display: flex;
   justify-content: center;
@@ -38,6 +34,11 @@ figure .image img {
 .forms {
   display: flex;
   justify-content: space-around;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-item {
